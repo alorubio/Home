@@ -1,9 +1,11 @@
 # About me
 
-I’m Alondra Rubio, a Data Scientist with a solid foundation in computer systems engineering and over 8 years of experience in digital strategy, now specialized in transforming complex data into powerful insights.
+I'm Alondra Rubio, a Data Scientist with a background in computer systems engineering and 8+ years of professional experience — first in digital marketing, and now in data science and analytics. I specialize in extracting insights, building predictive models, and creating data solutions that support strategic decision-making.
 
-My unique background bridges marketing intelligence and data science, allowing me to build predictive models, optimize processes, and uncover behavioral patterns that drive business impact. From time series forecasting to user segmentation and recommender systems, I create data-driven solutions that support smart, scalable decisions.
+My technical toolkit includes Python, SQL, Power BI, and machine learning techniques such as classification, clustering, time series forecasting, and recommender systems. I’ve led projects involving customer segmentation, behavioral analysis, data visualization, and automated reporting pipelines.
 
-I thrive in global, remote environments where collaboration and innovation meet. Whether working with raw industrial data or customer analytics, I’m passionate about making information clear, actionable, and valuable.
+Beyond tools and models, I bring strong soft skills: I’m a detail-oriented, results-driven professional who communicates clearly across teams. I thrive in collaborative, remote environments where curiosity, adaptability, and continuous learning are valued.
 
-Explore my portfolio to see how I combine business acumen, analytics, and technology to create results that matter.
+What sets me apart is my ability to combine business understanding with technical precision — translating data into real impact.
+
+Explore my portfolio to see how I turn complex data into actionable insights.
