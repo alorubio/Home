@@ -2,7 +2,7 @@
 
 I'm Alondra Rubio, a Data Scientist with a background in computer systems engineering and 8+ years of professional experience — first in digital marketing, and now in data science and analytics. I specialize in extracting insights, building predictive models, and creating data solutions that support strategic decision-making.
 
-My technical toolkit includes ![Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=white **Python, SQL, Power BI, and machine learning** techniques such as classification, clustering, time series forecasting, and recommender systems. I’ve led projects involving customer segmentation, behavioral analysis, data visualization, and automated reporting pipelines.
+My technical toolkit includes [Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=white **Python, SQL, Power BI, and machine learning** techniques such as classification, clustering, time series forecasting, and recommender systems. I’ve led projects involving customer segmentation, behavioral analysis, data visualization, and automated reporting pipelines.
 
 Beyond tools and models, I bring strong soft skills: I’m a detail-oriented, results-driven professional who communicates clearly across teams. I thrive in collaborative, remote environments where curiosity, adaptability, and continuous learning are valued.
 
