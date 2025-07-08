@@ -65,7 +65,7 @@ Identification of patterns to determine whether a game is successful or not, all
 3. **Correlación Ventas Vs Score:** Se puede visualizar que hay cierta relación entre los scores y las ventas, sobre todo influyen un poco más los scores de las críticas por encima del score de los usuarios, por lo que se puede decir, que en cierta parte las ventas se basan también en lo que la crítica señala, ya que un gran porcentaje de población se basa en las críticas de los productos para saber si realizar o no una compra, lo mismo sucede en este caso de los videojuegos.
 ![picture2](images/Picture2.png)
 
-**Explora más detalles del proyecto en el [repositorio completo](https://https://github.com/alorubio/Proyecto_Ice_videojuegos_online).**
+**Explora más detalles del proyecto en el [repositorio completo](https://github.com/alorubio/Proyecto_Ice_videojuegos_online).**
 
 ## Similitud de clientes, probabilidad de compra y protección de datos
 El objetivo de este proyecto es resolver varios desafíos mediante **machine learning**. Entre ellos, identificar clientes similares a uno dado para apoyar al equipo de marketing, predecir la probabilidad de que un nuevo cliente reciba una prestación del seguro y estimar cuántas prestaciones podría recibir usando un modelo predictivo. Además, se requiere proteger los datos personales de los clientes.
