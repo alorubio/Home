@@ -116,4 +116,4 @@ El objetivo de este proyecto es resolver varios desafíos mediante **machine lea
 1. **Gráfico de pares:** Se utiliza el gráfico de pares para identificar si hay similitudes entre los clientes, lo cual podemos observar que visualmente no se pueden detectar grupos obvios, ya que es difícil combinar diversas variables simultáneamente.
 2. ![picture5](images/picture5.png)
 
-**Explora más detalles del proyecto en el [repositorio completo](https://https://github.com/alorubio/Proyecto_10_Sure_Tomorrow.ipynb).**
+**Explora más detalles del proyecto en el [repositorio completo](https://github.com/alorubio/Proyecto_Sure_Tomorrow_seguros).**
