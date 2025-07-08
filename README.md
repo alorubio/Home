@@ -1,4 +1,4 @@
-# About me
+# My Journey Through Data
 
 I'm Alondra Rubio, a Data Scientist with a background in computer systems engineering and 8+ years of professional experience — first in digital marketing, and now in data science and analytics. **I specialize in extracting insights, building predictive models, and creating data solutions that support strategic decision-making.**
 
