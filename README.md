@@ -52,35 +52,35 @@ Identification of patterns to determine whether a game is successful or not, all
 - Un factor que influye en las ventas son las críticas de los usuarios
 - Las preferencias de género de videojuegos son similares en las regiones analizadas, permitiendo identificar los géneros preferidos
 
-#### Estrategias recomendadas
-- **Campañas personalizadas:** Diseñar campañas que destaquen las principales características de los juegos a promocionar
-- **Segmentación proactiva:** Clasificar clientes por plataforma y género para diseñar estratégias de retención y fidelización.
-- **Promover actividades estratégicas:** Identificar clientes en riesgo y ofrecer promociones interesantes y específicas
+#### Recommended strategies
+- **Custom Campaigns:** Design campaigns that highlight the key features of the games you're promoting.
+- **Proactive Segmentation:** Classify customers by platform and gender to design retention and loyalty strategies.
+- **Promote Strategic Activities:** Identify at-risk customers and offer interesting, targeted promotions.
 
-### Visualizaciones destacadas
-1. **Juegos por año:** Cantidad de juegos lanzados por año, en donde se pueden visualizar las ventas más significativas, lo que es parte fundamental para identificar los principales años en que empezaron a tomar fuerza los videojuegos
+### Featured Views
+1. **Games per year:** Number of games released per year, where the most significant sales can be seen, which is a fundamental part to identify the main years in which video games began to gain strength.
 ![picture0](images/Picture0.png)
-2. **Ventas por plataforma:** Se observa que hay plataformas que han tenido un comportamiento bastante aceptable (Nintendo, playstation, xbox), así como unas ventas significativas, por lo que se puede considerar que son las que se encuentran entre las 'favoritas' de los usuarios.
+2. **Sales by platform:** It is observed that there are platforms that have had quite acceptable performance (Nintendo, PlayStation, Xbox), as well as significant sales, so they can be considered among the 'favorites' of users.
 ![picture1](images/Picture1.png)
-3. **Correlación Ventas Vs Score:** Se puede visualizar que hay cierta relación entre los scores y las ventas, sobre todo influyen un poco más los scores de las críticas por encima del score de los usuarios, por lo que se puede decir, que en cierta parte las ventas se basan también en lo que la crítica señala, ya que un gran porcentaje de población se basa en las críticas de los productos para saber si realizar o no una compra, lo mismo sucede en este caso de los videojuegos.
+3. **Sales vs. Score Correlation:** It can be seen that there is a certain relationship between scores and sales, especially the critics' scores have a little more influence than the users' scores, so it can be said that, to a certain extent, sales are also based on what the critics point out, since a large percentage of the population relies on product reviews to know whether or not to make a purchase, the same happens in this case with video games.
 ![picture2](images/Picture2.png)
 
-**Explora más detalles del proyecto en el [repositorio completo](https://github.com/alorubio/Proyecto_Ice_videojuegos_online).**
+**Explore more details of the project in the [complete repository](https://github.com/alorubio/Proyecto_Ice_videojuegos_online).**
 
-## Similitud de clientes, probabilidad de compra y protección de datos
-El objetivo de este proyecto es resolver varios desafíos mediante **machine learning**. Entre ellos, identificar clientes similares a uno dado para apoyar al equipo de marketing, predecir la probabilidad de que un nuevo cliente reciba una prestación del seguro y estimar cuántas prestaciones podría recibir usando un modelo predictivo. Además, se requiere proteger los datos personales de los clientes.
+## Customer Similarity, Purchase Likelihood, and Data Protection
+The goal of this project is to solve several challenges using machine learning. These include identifying customers similar to a given customer to support the marketing team, predicting the likelihood of a new customer receiving an insurance benefit, and estimating how many benefits they could receive using a predictive model. Additionally, it is necessary to protect customers' personal data.
 
-#### Herramientas y tipo de proyecto
+#### Tools and project type
 ![Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-%23357ebd.svg?style=for-the-badge&logo=scipy&logoColor=white)
 ![Math](https://img.shields.io/badge/Matplotlib-%23357ebd.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![Seaborn](https://img.shields.io/badge/Seaborn-357ebd?style=for-the-badge)
 ![Sklearn](https://img.shields.io/badge/Sklearn-357ebd?style=for-the-badge)
-![Limpieza de datos](https://img.shields.io/badge/Limpieza_de_datos-295F98?style=for-the-badge)
-![Transformación de datos](https://img.shields.io/badge/Transformación_de_datos-295F98?style=for-the-badge)
-![Análisis de datos](https://img.shields.io/badge/Análisis_de_datos-295F98?style=for-the-badge)
-![Visualización de datos](https://img.shields.io/badge/Visualización_de_datos-295F98?style=for-the-badge)
+![Data Cleaning](https://img.shields.io/badge/Data_Cleaning-295F98?style=for-the-badge)
+![Data transformation](https://img.shields.io/badge/Data_transformation-295F98?style=for-the-badge)
+![Data analysis](https://img.shields.io/badge/Data_analysis-295F98?style=for-the-badge)
+![Data visualization](https://img.shields.io/badge/Data_visualization-295F98?style=for-the-badge)
 ![NearestNeighbors](https://img.shields.io/badge/NearestNeighbors-295F98?style=for-the-badge)
 ![KNeighborsClassifier](https://img.shields.io/badge/KNeighborsClassifier-295F98?style=for-the-badge)
 ![f1_score](https://img.shields.io/badge/f1_score-295F98?style=for-the-badge)
@@ -88,40 +88,40 @@ El objetivo de este proyecto es resolver varios desafíos mediante **machine lea
 ![r2_score](https://img.shields.io/badge/r2_score-295F98?style=for-the-badge)
 ![LinearRegression](https://img.shields.io/badge/LinearRegression-295F98?style=for-the-badge)
 
-### Preguntas clave
-1. ¿Es probable que el cliente reciba una prestación del seguro?
-2. ¿Es probable predecir el número de prestaciones de seguro que un nuevo cliente pueda recibir.
-3. ¿Hay similitud entre clientes determinados?
+### Key Questions
+1. ¿Is the client likely to receive an insurance benefit?
+2. ¿Is it possible to predict the number of insurance benefits a new client might receive?
+3. ¿Are there similarities between specific clients?
 
-### Metodología
-- **Preprocesamiento de datos:** Limpieza de datos (valores ausentes, duplicados, formatos de columnas, y tipos de datos adecuados).
-- **Análisis exploratorio de datos:** Se realiza un análisis para conocer el comportamiento de los clientes.
-- **Análisis de clientes similares:** Se realiza un análisis para conocer y evalúar la posibilidad de encontrar clientes similares.
-- **Probabilidad de recibir prestación:** Se analiza la probabilidad utilizando varios modelos, un modelo dummie entrenado, modelo dummie no entrenado y **regresión lineal**
-- **Ofuscación de datos:** Se realiza la protección de los datos personales de los clientes
-- **Prueba de ofuscación correcta:** Se realizan pruebas para confirmar que la ofuscación de información funciona de manera correcta
+### Methodology
+- **Data Preprocessing:** Data cleansing (missing values, duplicates, column formats, and appropriate data types).
+- **Exploratory Data Analysis:** An analysis is performed to understand customer behavior.
+- **Similar Customer Analysis:** An analysis is performed to identify and evaluate the likelihood of finding similar customers.
+- **Probability of Receiving Benefits:** The probability is analyzed using various models: a trained dummy model, an untrained dummy model, and **linear regression**.
+- **Data Obfuscation:** Customers' personal data is protected.
+- **Correct Obfuscation Test:** Tests are performed to confirm that data obfuscation is working correctly.
 
-### Conclusiones y recomendaciones
+### Conclusions and Recommendations
 
-#### Factores críticos
-- Mediante el análisis exploratorio nos dimos cuenta que resultaba un poco complicado detectar grupos con similitudes
-- Se utilizó el lenguaje de **machine learning** para obtener similitudes
+#### Critical Factors
+- Through exploratory analysis, we found it somewhat difficult to identify groups with similarities.
+- Machine learning was used to obtain similarities.
 
-#### Recomendaciones
-- Es necesario evaluar los datos escalados y sin escalar para analizar cual arroja información más certera
-- Es necesario entrenar y evaluar diferentes modelos de predicción, para así analizar y seleccionar el mejor modelo
-- Al realizar ofuscación de información es necesario realizar pruebas para verificar que su funcionamiento sea el correcto y no surjan inconsistencias.
+#### Recommendations
+- Scaled and unscaled data must be evaluated to determine which provides the most accurate information.
+- Different prediction models must be trained and evaluated to analyze and select the best model.
+- When obfuscating data, testing must be performed to verify that it is functioning correctly and that no inconsistencies arise.
 
-### Visualizaciones destacadas
-1. **Gráfico de pares:** Se utiliza el gráfico de pares para identificar si hay similitudes entre los clientes, lo cual podemos observar que visualmente no se pueden detectar grupos obvios, ya que es difícil combinar diversas variables simultáneamente.
+### Featured Visualizations
+1. **Pair Chart:** The pair chart is used to identify similarities between customers. We can see that visually, no obvious groups can be detected, as it is difficult to combine several variables simultaneously.
 ![picture5](images/picture5.png)
 
-**Explora más detalles del proyecto en el [repositorio completo](https://github.com/alorubio/Proyecto_Sure_Tomorrow_seguros).**
+**Explore more details of the project in the [complete repository](https://github.com/alorubio/Proyecto_Sure_Tomorrow_seguros).**
 
-## Modelo predictivo de pedidos de taxis durante horas pico (series temporales)
-El objetivo del proyecto consiste en analizar la recopilación de datos históricos sobre pedidos de taxis en los aeropuertos, con la finalidad de atraer a más conductores durante las horas pico, para lo cual se necesita predecir la cantidad de pedidos de taxis para la próxima hora mediante un modelo de predicción.
+## Predictive Model for Taxi Orders During Peak Hours (Time Series)
+The objective of this project is to analyze historical data collection on taxi orders at airports, with the goal of attracting more drivers during peak hours. This requires predicting the number of taxi orders for the next hour using a predictive model.
 
-#### Herramientas y tipo de proyecto
+#### Tools and project type
 ![Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-%23357ebd.svg?style=for-the-badge&logo=scipy&logoColor=white)
@@ -129,10 +129,10 @@ El objetivo del proyecto consiste en analizar la recopilación de datos históri
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-357ebd?style=for-the-badge)
 ![Sklearn](https://img.shields.io/badge/Sklearn-357ebd?style=for-the-badge)
 ![Statsmodel](https://img.shields.io/badge/Statsmodel-357ebd?style=for-the-badge)
-![Limpieza de datos](https://img.shields.io/badge/Limpieza_de_datos-295F98?style=for-the-badge)
-![Transformación de datos](https://img.shields.io/badge/Transformación_de_datos-295F98?style=for-the-badge)
-![Análisis de datos](https://img.shields.io/badge/Análisis_de_datos-295F98?style=for-the-badge)
-![Visualización de datos](https://img.shields.io/badge/Visualización_de_datos-295F98?style=for-the-badge)
+![Data cleaning](https://img.shields.io/badge/Data_cleaning-295F98?style=for-the-badge)
+![Data transformation](https://img.shields.io/badge/Data_transformation-295F98?style=for-the-badge)
+![Data analysis](https://img.shields.io/badge/Data_analysis-295F98?style=for-the-badge)
+![Data visualization](https://img.shields.io/badge/Data_visualization-295F98?style=for-the-badge)
 ![LinearRegression](https://img.shields.io/badge/LinearRegression-295F98?style=for-the-badge)
 ![DecisionTreeRegressor](https://img.shields.io/badge/DecisionTreeRegressor-295F98?style=for-the-badge)
 ![RandomForestRegressor](https://img.shields.io/badge/RandomForestRegressor-295F98?style=for-the-badge)
@@ -140,30 +140,30 @@ El objetivo del proyecto consiste en analizar la recopilación de datos históri
 ![LightGBM](https://img.shields.io/badge/LightGBM-295F98?style=for-the-badge)
 ![mean_squared_error](https://img.shields.io/badge/mean_squared_error-295F98?style=for-the-badge)
 
-### Preguntas clave
-1. ¿Se puede identificar la tendencia de los pedidos de taxis por medio de los datos históricos?
-2. ¿Es igual la tendencia de los datos completos a diferencia de un extracto de datos?
-3. ¿Existe una tendencia, estacionalidad, estacionaridad en la información analizada?
+### Key Questions
+1. ¿Can taxi order trends be identified using historical data?
+2. ¿Is the trend in full data the same as in a data extract?
+3. ¿Is there a trend, seasonality, or stationarity in the analyzed data?
 
-### Metodología
-- **Preprocesamiento de datos:** Limpieza de datos (valores ausentes, duplicados, formatos de columnas, y tipos de datos adecuados).
-- **Análisis exploratorio de datos:** Se realiza un remuestreo de la información y se analizan los datos y el comportamiento  de los pedidos.
-- **Entrenamiento de modelos predictivos:** Se generan las características, división de conjuntos y se entrenan los modelos predictivos.
-- **Pruebas:** Se realizan las prueban de los modelos previamente entrenados para analizar los resultados
+### Methodology
+- **Data preprocessing:** Data cleaning (missing values, duplicates, column formats, and appropriate data types).
+- **Exploratory data analysis:** Data resampling is performed, and data and order behavior are analyzed.
+- **Predictive model training:** Feature generation, data sets are split, and predictive models are trained.
+- **Testing:** Pre-trained models are tested to analyze the results.
 
-### Conclusiones y recomendaciones
+### Conclusions and Recommendations
 
-#### Recomendaciones
-- Es necesario realizar una extracción de la información para visualizar de manera más detallada y tener la oportunidad de detectar la tendencia
-- Descomponer la información por tendencia, estacionalidad y residuo, para analizar y comparar los resultados.
-- Es necesario entrenar y evaluar diferentes modelos de predicción, para así analizar y seleccionar el mejor modelo
+#### Recommendations
+- Data extraction is necessary to provide a more detailed view and a chance to detect trends.
+- Data must be broken down by trend, seasonality, and residuals to analyze and compare the results.
+- Different prediction models must be trained and evaluated to analyze and select the best model.
 
-Para esta aplicación el modelo más adecuado resulta ser CatBoostRegressor, a pesar de que todos los modelos salieron por debajo de la métrica propuesta en la descripción del proyecto, el modelo CatBoostRegressor es el modelo que arroja el error RECM más pequeño para el conjunto de prueba, y así mismo, también un error bajo para el conjunto de entrenamiento, lo que lo hace el más idóneo a utilizar en el presente proyecto de pedidos de taxis.
+For this application, the most appropriate model is CatBoostRegressor. Although all models performed below the metric proposed in the project description, the CatBoostRegressor model is the model that yields the smallest RECM error for the test set, and also a low error for the training set, making it the most suitable model to use in this taxi ordering project.
 
-### Visualizaciones destacadas
-1. **Gráfico de tendencias completo:** Se puede observar que los registros tienden a subir conforme avanza el tiempo, sin embargo en la estacionalidad no se puede definir nada en concreto ya que no se observa información de manera clara.
+### Featured Visualizations
+1. **Full trend chart:** It can be seen that the number of records tends to increase over time, however, nothing specific can be defined regarding seasonality since the information is not clearly visible.
 ![picture4](images/picture4.png)
-2. **Gráfico de tendencias de extracto de información:** Al visualizar el extracto que se realizó, la estacionalidad, es bastante similar, y los residuos permanecen lineales.
+2. **Information extract trend graph:** When viewing the extract that was made, the seasonality is quite similar, and the residuals remain linear.
 ![picture8](images/picture8.png)
 
-**Explora más detalles del proyecto en el [repositorio completo](https://github.com/alorubio/Prediccion-pedidos-taxis-en-horas-pico.git).**
+**Explore more details of the project in the [complete repository](https://github.com/alorubio/Prediccion-pedidos-taxis-en-horas-pico.git).**
