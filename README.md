@@ -67,7 +67,7 @@ Identification of patterns to determine whether a game is successful or not, all
 
 **Explore more details of the project in the [complete repository](https://github.com/alorubio/Proyecto_Ice_videojuegos_online).**
 
-## Customer Similarity, Purchase probability, and Data Protection
+## Customer Similarity, Purchase probability, and Data Protection through machine learning
 The goal of this project is to solve several challenges using machine learning. These include identifying customers similar to a given customer to support the marketing team, predicting the likelihood of a new customer receiving an insurance benefit, and estimating how many benefits they could receive using a predictive model. Additionally, it is necessary to protect customers' personal data.
 
 #### Tools and project type
