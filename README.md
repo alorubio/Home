@@ -114,6 +114,56 @@ El objetivo de este proyecto es resolver varios desafíos mediante **machine lea
 
 ### Visualizaciones destacadas
 1. **Gráfico de pares:** Se utiliza el gráfico de pares para identificar si hay similitudes entre los clientes, lo cual podemos observar que visualmente no se pueden detectar grupos obvios, ya que es difícil combinar diversas variables simultáneamente.
-2. ![picture5](images/picture5.png)
+![picture5](images/picture5.png)
 
 **Explora más detalles del proyecto en el [repositorio completo](https://github.com/alorubio/Proyecto_Sure_Tomorrow_seguros).**
+
+## Modelo predictivo de pedidos de taxis durante horas pico (series temporales)
+El objetivo del proyecto consiste en analizar la recopilación de datos históricos sobre pedidos de taxis en los aeropuertos, con la finalidad de atraer a más conductores durante las horas pico, para lo cual se necesita predecir la cantidad de pedidos de taxis para la próxima hora mediante un modelo de predicción.
+
+#### Herramientas y tipo de proyecto
+![Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-%23357ebd.svg?style=for-the-badge&logo=scipy&logoColor=white)
+![Math](https://img.shields.io/badge/Matplotlib-%23357ebd.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-357ebd?style=for-the-badge)
+![Sklearn](https://img.shields.io/badge/Sklearn-357ebd?style=for-the-badge)
+![Statsmodel](https://img.shields.io/badge/Statsmodel-357ebd?style=for-the-badge)
+![Limpieza de datos](https://img.shields.io/badge/Limpieza_de_datos-295F98?style=for-the-badge)
+![Transformación de datos](https://img.shields.io/badge/Transformación_de_datos-295F98?style=for-the-badge)
+![Análisis de datos](https://img.shields.io/badge/Análisis_de_datos-295F98?style=for-the-badge)
+![Visualización de datos](https://img.shields.io/badge/Visualización_de_datos-295F98?style=for-the-badge)
+![LinearRegression](https://img.shields.io/badge/LinearRegression-295F98?style=for-the-badge)
+![DecisionTreeRegressor](https://img.shields.io/badge/DecisionTreeRegressor-295F98?style=for-the-badge)
+![RandomForestRegressor](https://img.shields.io/badge/RandomForestRegressor-295F98?style=for-the-badge)
+![catboost](https://img.shields.io/badge/catboost-295F98?style=for-the-badge)
+![LightGBM](https://img.shields.io/badge/LightGBM-295F98?style=for-the-badge)
+![mean_squared_error](https://img.shields.io/badge/mean_squared_error-295F98?style=for-the-badge)
+
+### Preguntas clave
+1. ¿Se puede identificar la tendencia de los pedidos de taxis por medio de los datos históricos?
+2. ¿Es igual la tendencia de los datos completos a diferencia de un extracto de datos?
+3. ¿Existe una tendencia, estacionalidad, estacionaridad en la información analizada?
+
+### Metodología
+- **Preprocesamiento de datos:** Limpieza de datos (valores ausentes, duplicados, formatos de columnas, y tipos de datos adecuados).
+- **Análisis exploratorio de datos:** Se realiza un remuestreo de la información y se analizan los datos y el comportamiento  de los pedidos.
+- **Entrenamiento de modelos predictivos:** Se generan las características, división de conjuntos y se entrenan los modelos predictivos.
+- **Pruebas:** Se realizan las prueban de los modelos previamente entrenados para analizar los resultados
+
+### Conclusiones y recomendaciones
+
+#### Recomendaciones
+- Es necesario realizar una extracción de la información para visualizar de manera más detallada y tener la oportunidad de detectar la tendencia
+- Descomponer la información por tendencia, estacionalidad y residuo, para analizar y comparar los resultados.
+- Es necesario entrenar y evaluar diferentes modelos de predicción, para así analizar y seleccionar el mejor modelo
+
+Para esta aplicación el modelo más adecuado resulta ser CatBoostRegressor, a pesar de que todos los modelos salieron por debajo de la métrica propuesta en la descripción del proyecto, el modelo CatBoostRegressor es el modelo que arroja el error RECM más pequeño para el conjunto de prueba, y así mismo, también un error bajo para el conjunto de entrenamiento, lo que lo hace el más idóneo a utilizar en el presente proyecto de pedidos de taxis.
+
+### Visualizaciones destacadas
+1. **Gráfico de tendencias completo:** Se puede observar que los registros tienden a subir conforme avanza el tiempo, sin embargo en la estacionalidad no se puede definir nada en concreto ya que no se observa información de manera clara.
+![picture4](images/picture4.png)
+2. **Gráfico de tendencias de extracto de información:** Al visualizar el extracto que se realizó, la estacionalidad, es bastante similar, y los residuos permanecen lineales.
+![picture8](images/picture8.png)
+
+**Explora más detalles del proyecto en el [repositorio completo](https://github.com/alorubio/Prediccion-pedidos-taxis-en-horas-pico.git).**
